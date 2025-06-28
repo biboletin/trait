@@ -1,11 +1,12 @@
 {
-    "name": "bibo/trait",
+    "name": "biboletin/trait",
     "description": "Traits",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Bibo\\Trait\\": "src/"
+            "Biboletin\\Traits\\": "src/"
         }
     },
     "authors": [
@@ -15,5 +16,12 @@
         }
     ],
     "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "7.3.x-dev",
+        "squizlabs/php_codesniffer": "*",
+        "phpstan/phpstan": "2.1.x-dev",
+        "vimeo/psalm": "^7.0@dev",
+        "phpunit/phpunit": "^12"
+    },
     "require": {}
 }
